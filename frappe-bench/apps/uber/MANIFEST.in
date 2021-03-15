@@ -1,0 +1,18 @@
+include MANIFEST.in
+include requirements.txt
+include *.json
+include *.md
+include *.py
+include *.txt
+recursive-include uber *.css
+recursive-include uber *.csv
+recursive-include uber *.html
+recursive-include uber *.ico
+recursive-include uber *.js
+recursive-include uber *.json
+recursive-include uber *.md
+recursive-include uber *.png
+recursive-include uber *.py
+recursive-include uber *.svg
+recursive-include uber *.txt
+recursive-exclude uber *.pyc
